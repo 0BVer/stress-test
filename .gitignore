@@ -1,0 +1,3 @@
+/monitoring/prometheus/data/
+/monitoring/grafana/data/
+*.log
