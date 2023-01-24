@@ -79,7 +79,7 @@ default ✓ [======================================] 100 VUs  1m0s
 
 1. 좌츨 메뉴에서 십자가 모양의 `Create` 에서 `import` 클릭
 2. `Import via grafana.com` 아래의 입력 칸에 [Grafana.com](http://Grafana.com) 에서 검색한 대시 보드 ID를 입력 후 파란색 `Load` 버튼 클릭
-    - 예시 [https://grafana.com/grafana/dashboards/6756](https://grafana.com/grafana/dashboards/6756) 의 `6756`
+    - 예시 `https://grafana.com/grafana/dashboards/6756` 에서 `6756`
 3. 맨 아래 입력창에서 datasource 선택 후 파란색 `import` 버튼 클릭
 
 ### 대시 보드 생성하는 방법
@@ -99,10 +99,11 @@ default ✓ [======================================] 100 VUs  1m0s
 
 ### 등록한 대시 보드 찾는 방법
 
-1. 좌측 메뉴에서 4개의 사각형으로 구성된 `Dashboards` 에서 `Browse` 클릭
+- 좌측 메뉴에서 4개의 사각형으로 구성된 `Dashboards` 에서 `Browse` 클릭
 
-- ##### [Grafana Demo](https://play.grafana.org/)
-- ##### [Django Prometheus 설정 방법](https://github.com/korfuri/django-prometheus)
+### 참고 자료
+##### [Grafana Demo](https://play.grafana.org/)
+##### [Django Prometheus 설정 방법](https://github.com/korfuri/django-prometheus)
 
 ## ELK 로깅
 ### 동작 방식
@@ -123,7 +124,8 @@ default ✓ [======================================] 100 VUs  1m0s
 6. `Create Visualization` 클릭
 7. 보고 싶은 필드를 화면에 드롭다운 하여 시각화
 
-- ###### [Kibana Demo](https://demo.elastic.co/app/dashboards#/view/1be3aae0-9406-11e8-8fa2-3d5f811fbd0f?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))
+### 참고 자료
+###### [Kibana Demo](https://demo.elastic.co/app/dashboards#/view/1be3aae0-9406-11e8-8fa2-3d5f811fbd0f?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now)))
 
 ## 서버 구성
 엔드포인트 `http://localhost/api/v1/multi`
